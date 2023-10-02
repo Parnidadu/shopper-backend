@@ -17,6 +17,15 @@ With that in mind, please make sure to include the .env file in the root directo
   npm run start // to initiate with node.
 ```
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`MONGO_URL`
+
+`PORT`
+
+
 
 #### Following message should be displayed once you start the server,
 
