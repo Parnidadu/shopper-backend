@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB connection setup
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect(process.env.MONGO_URL, {
     //   useNewUrlParser: true,
     //   useUnifiedTopology: true,
     //   useCreateIndex: true,
